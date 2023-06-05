@@ -5,7 +5,7 @@ Owner: C Grant
 Created: 04/06/2023
 
 ## Purpose: 
-A data pipeline that takes publically availible data on NHS Beds in Endland and produces a series of stacked bar charts visualising the information.
+A data pipeline that takes publically availible data on NHS Beds in England, in particular number of beds and degree to which they are occupied, and produces a series of stacked bar charts visualising the information.
 
 This data pipeline fetches data from a remote URL from NHS England, preprocesses it, generates plots, and saves the plots in a PDF file. The pipeline is designed to run in a Google Colab environment.
 
