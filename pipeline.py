@@ -161,6 +161,6 @@ file_path = 'data.xls'
 # Execute the data pipeline
 pdf_filename = data_pipeline(url, file_path)
 
-# Download the PDF file
+# Download a PDF file of the output
 download_pdf(pdf_filename)
 
