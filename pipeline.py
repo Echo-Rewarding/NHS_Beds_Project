@@ -145,7 +145,7 @@ def data_pipeline(url, file_path):
     return pdf_filename
 
 def download_pdf(pdf_filename):
-    # Specify a different directory and filename for the copied PDF file
+    # Specify a different directory and filename for a copied PDF file
     copied_filename = '/content/NHS_Beds_Output.pdf'
 
     # Copy the PDF file to the specified directory with a different filename
@@ -161,6 +161,6 @@ file_path = 'data.xls'
 # Execute the data pipeline
 pdf_filename = data_pipeline(url, file_path)
 
-# Download the copied PDF file
+# Download the PDF file
 download_pdf(pdf_filename)
 
